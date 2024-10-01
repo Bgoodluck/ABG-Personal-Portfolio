@@ -479,7 +479,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Website : ',
-        desc: 'Yet to be deployed in app stores',
+        desc: 'https://abg-ecom-online-stores.vercel.app',
       },
     ],
   },
@@ -506,7 +506,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Website : ',
-        desc: 'Yet to be deployed in app stores',
+        desc: 'https://abg-blog-web-nextjs.vercel.app',
       },
     ],
   },

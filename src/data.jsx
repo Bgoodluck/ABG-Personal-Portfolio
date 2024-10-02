@@ -246,7 +246,7 @@ export const skills = [
   {
     id: 5,
     title: 'Php',
-    percentage: '75',
+    percentage: '70',
   },
 
   {
@@ -324,7 +324,7 @@ export const portfolio = [
 
   {
     id: 2,
-    img: Work2,
+    img: project,
     title: 'E-commerce Car Purchase Website',
     details: [
       {
@@ -352,7 +352,7 @@ export const portfolio = [
 
   {
     id: 3,
-    img: Work3,
+    img: project,
     title: 'E-commerce Hotel Reservation Website',
     details: [
       {
@@ -380,7 +380,7 @@ export const portfolio = [
 
   {
     id: 4,
-    img: Work4,
+    img: project,
     title: 'A Youtube Clone',
     details: [
       {
@@ -408,7 +408,7 @@ export const portfolio = [
 
   {
     id: 5,
-    img: Work5,
+    img: project,
     title: 'Music App Website',
     details: [
       {
@@ -432,7 +432,7 @@ export const portfolio = [
 
   {
     id: 6,
-    img: Work6,
+    img: project,
     title: 'Full Mobile Application',
     details: [
       {
@@ -459,7 +459,7 @@ export const portfolio = [
   },
   {
     id: 7,
-    img: Work6,
+    img: project,
     title: 'An Online E-Commerce Clothing Store',
     details: [
       {
@@ -486,7 +486,7 @@ export const portfolio = [
   },
   {
     id: 8,
-    img: Work6,
+    img: project,
     title: 'Blog Website',
     details: [
       {
@@ -513,7 +513,7 @@ export const portfolio = [
   },
   {
     id: 9,
-    img: Work6,
+    img: project,
     title: 'Personal Portfolio',
     details: [
       {

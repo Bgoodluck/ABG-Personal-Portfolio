@@ -15,6 +15,7 @@ import Work3 from './assets/project-3.jpeg';
 import Work4 from './assets/project-4.jpeg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
+import project from './assets/project-laptop.jpg'
 import food from './assets/fooddel1-vid.mp4'
 
 import Theme1 from './assets/purple.png';
@@ -294,7 +295,7 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
+    img: project,
     vid: food,
     title: 'E-commerce Food Ordering & Delivery Website',
     details: [
@@ -506,7 +507,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Website : ',
-        desc: 'https://abg-blog-web-nextjs.vercel.app',
+        desc: 'https://abg-blogwithnextjs.vercel.app',
       },
     ],
   },

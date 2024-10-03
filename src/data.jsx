@@ -243,17 +243,17 @@ export const skills = [
     percentage: '66',
   },
 
-  {
-    id: 5,
-    title: 'Php',
-    percentage: '70',
-  },
+  // {
+  //   id: 5,
+  //   title: 'Php',
+  //   percentage: '60',
+  // },
 
-  {
-    id: 6,
-    title: 'Wordpress',
-    percentage: '70',
-  },
+  // {
+  //   id: 6,
+  //   title: 'Wordpress',
+  //   percentage: '65',
+  // },
 
   {
     id: 7,
@@ -276,13 +276,13 @@ export const skills = [
   {
     id: 10,
     title: 'Styled Components',
-    percentage: '76',
+    percentage: '66',
   },
   
   {
     id: 11,
     title: 'SQL & NoSQL',
-    percentage: '81',
+    percentage: '73',
   },
 
   {

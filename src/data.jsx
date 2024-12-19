@@ -78,17 +78,17 @@ export const personalInfo = [
     description: 'Goodluck',
   },
 
-  {
-    id: 3,
-    title: 'Age : ',
-    description: '46 Years',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Age : ',
+  //   description: '46 Years',
+  // },
 
-  {
-    id: 4,
-    title: 'Nationality : ',
-    description: 'Nigerian',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Nationality : ',
+  //   description: 'Nigerian',
+  // },
 
   {
     id: 5,
@@ -96,17 +96,17 @@ export const personalInfo = [
     description: 'Available',
   },
 
-  {
-    id: 6,
-    title: 'Address : ',
-    description: 'Mainland,Lagos',
-  },
+  // {
+  //   id: 6,
+  //   title: 'Address : ',
+  //   description: 'Mainland,Lagos',
+  // },
 
-  {
-    id: 7,
-    title: 'Phone : ',
-    description: '+2347036594624',
-  },
+  // {
+  //   id: 7,
+  //   title: 'Phone : ',
+  //   description: '+2347036594624',
+  // },
 
   {
     id: 8,
@@ -120,11 +120,11 @@ export const personalInfo = [
     description: '/in/adebisi-bobby-goodluck-79247ba',
   },
 
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'English, Yoruba',
-  },
+  // {
+  //   id: 10,
+  //   title: 'Langages : ',
+  //   description: 'English, Yoruba',
+  // },
 ];
 
 export const stats = [

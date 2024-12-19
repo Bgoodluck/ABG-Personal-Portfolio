@@ -196,10 +196,10 @@ function Contact() {
 
             <div className="info__item">
               <FaPhoneSquareAlt className="info__icon" />
-              <div>
+              {/* <div>
                 <span className="info__title">Call me</span>
                 <h4 className="info__desc">+2347036594624</h4>
-              </div>
+              </div> */}
             </div>
           </div>
 

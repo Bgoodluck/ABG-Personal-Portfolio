@@ -9,11 +9,30 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
+import beauty from './assets/beautySalon.png';
+import beauty1 from './assets/beautySalon.mp4';
+import blog from './assets/blog.png';
+import blog1 from './assets/blog.mp4';
+import car from './assets/car.png';
+import car1 from './assets/car.mp4';
+import chat from './assets/chat.png';
+import chat1 from './assets/chat.mp4';
+import cloth from './assets/clothing.png';
+import cloth1 from './assets/clothing.mp4';
+import foody from './assets/food.png';
+import foody1 from './assets/food.mp4';
+import hotel from './assets/hotel.png';
+import hotel1 from './assets/hotel.mp4';
+import port from './assets/portfolio.png';
+import port1 from './assets/portfolio.mp4';
+import message from './assets/messageApp.jpg';
+import message1 from './assets/messageApp2.mp4';
+import music from './assets/musicApp.png';
+import music1 from './assets/musicApp.mp4';
+import social from './assets/social.jpg';
+import social1 from './assets/socialApp.mp4';
+import youtube from './assets/youtube.png';
+import youtube1 from './assets/youtube.mp4';
 import Work6 from './assets/project-6.jpg';
 import project from './assets/project-laptop.jpg'
 import food from './assets/fooddel1-vid.mp4'
@@ -295,8 +314,8 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: project,
-    vid: food,
+    img: foody,
+    vid: foody1,
     title: 'E-commerce Food Ordering & Delivery Website',
     details: [
       {
@@ -324,7 +343,8 @@ export const portfolio = [
 
   {
     id: 2,
-    img: project,
+    img: car,
+    vid: car1,
     title: 'E-commerce Car Purchase Website',
     details: [
       {
@@ -352,7 +372,8 @@ export const portfolio = [
 
   {
     id: 3,
-    img: project,
+    img: hotel,
+    vid: hotel1,
     title: 'E-commerce Hotel Reservation Website',
     details: [
       {
@@ -380,7 +401,8 @@ export const portfolio = [
 
   {
     id: 4,
-    img: project,
+    img: youtube,
+    vid: youtube1,
     title: 'A Youtube Clone',
     details: [
       {
@@ -408,7 +430,8 @@ export const portfolio = [
 
   {
     id: 5,
-    img: project,
+    img: music,
+    vid: music1,
     title: 'Music App Website',
     details: [
       {
@@ -459,7 +482,8 @@ export const portfolio = [
   },
   {
     id: 7,
-    img: project,
+    img: cloth,
+    vid: cloth1,
     title: 'An Online E-Commerce Clothing Store',
     details: [
       {
@@ -486,7 +510,8 @@ export const portfolio = [
   },
   {
     id: 8,
-    img: project,
+    img: blog,
+    vid: blog1,
     title: 'Blog Website',
     details: [
       {
@@ -513,7 +538,8 @@ export const portfolio = [
   },
   {
     id: 9,
-    img: project,
+    img: port,
+    vid: port1,
     title: 'Personal Portfolio',
     details: [
       {
@@ -535,6 +561,90 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Website : ',
         desc: 'https://abg-personal-portfolio.vercel.app',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: social,
+    vid: social1,
+    title: 'Social Media App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'A social media app using React to efficiently manage components and interactivity. JavaScript used to handle any dynamic behavior, such as event handling, animations, or form submissions. Vanilla CSS  provided the styling, allowing the creation of a custom design from scratch with clean, aesthetic layouts, animations, and hover effects to enhance user experience.',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Projects',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, JavaScript, Tailwindcss',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Website : ',
+        desc: 'https://abg-social-app-frontend.vercel.app',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: chat,
+    vid: chat1,
+    title: 'Messaging App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'This app provides a real-time, scalable, and dynamic messaging application. React is responsible for the UI, TailwindCSS for styling, Node.js + Express for handling requests, and Socket.io for enabling real-time messaging.',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Projects',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, JavaScript, Tailwindcss',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Website : ',
+        desc: 'https://abg-chat-app-clientside.vercel.app',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: beauty,
+    vid: beauty1,
+    title: 'Ecommerce Beauty Lounge',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Beauty Lounge website serves as an online platform for a beauty salon or spa, offering both service bookings and a shopping experience for beauty products. It is designed to provide a seamless, user-friendly experience, enabling customers to explore services, shop for beauty products, and make payments all in one place.',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Projects',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, JavaScript, Tailwindcss',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Website : ',
+        desc: 'https://abg-beauty-hub-client.vercel.app',
       },
     ],
   },

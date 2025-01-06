@@ -595,7 +595,7 @@ export const portfolio = [
   {
     id: 9,
     img: chat,
-    vid: chat1,
+    vid: message1,
     title: 'Messaging App',
     details: [
       {

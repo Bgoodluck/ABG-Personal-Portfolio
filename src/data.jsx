@@ -352,7 +352,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Healthcare Management Platform, designed to streamline doctor-patient interactions, manage medical histories, and facilitate online consultations seamlessly. The platform integrates real-time appointment scheduling, secure payment processing, and cloud-based medical records to enhance accessibility and efficiency in healthcare.',
+        desc: 'Healthcare Management Platform, designed to streamline doctor-patient interactions, manage medical histories, and facilitate online consultations seamlessly. With Payment gateway  and real-time appointment scheduling.',
       },
       {
         icon: <FiUser />,

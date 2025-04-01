@@ -36,6 +36,8 @@ import youtube1 from './assets/youtube.mp4';
 import Work6 from './assets/project-6.jpg';
 import project from './assets/project-laptop.jpg'
 import food from './assets/fooddel1-vid.mp4'
+import hmt from './assets/hmpt.mp4'
+import hmtt from './assets/hmp.jpg'
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -343,14 +345,14 @@ export const portfolio = [
 
   {
     id: 2,
-    img: car,
-    vid: car1,
-    title: 'E-commerce Car Purchase Website',
+    img: hmtt,
+    vid: hmt,
+    title: 'Healthcare Management Platform with Admin Panel and Specialist Panel',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'An innovative e-commerce platform for car dealerships and individual sellers, designed to enhance the online car-buying experience by providing a comprehensive, user-friendly interface.',
+        desc: 'Healthcare Management Platform, designed to streamline doctor-patient interactions, manage medical histories, and facilitate online consultations seamlessly. The platform integrates real-time appointment scheduling, secure payment processing, and cloud-based medical records to enhance accessibility and efficiency in healthcare.',
       },
       {
         icon: <FiUser />,
@@ -360,12 +362,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React, JavaScript, Tailwindcss',
+        desc: 'React, JavaScript, Tailwindcss, Express.js, Node.js',
       },
       {
         icon: <FiExternalLink />,
         title: 'Website : ',
-        desc: 'https://technotronix-frontend-three.vercel.app',
+        desc: 'https://healthcare-green-theta.vercel.app',
       },
     ],
   },
@@ -565,7 +567,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     img: social,
     vid: social1,
     title: 'Social Media App',
@@ -593,7 +595,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 9,
+    id: 11,
     img: chat,
     vid: message1,
     title: 'Messaging App',
@@ -621,7 +623,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 9,
+    id: 12,
     img: beauty,
     vid: beauty1,
     title: 'Ecommerce Beauty Lounge',
@@ -648,6 +650,35 @@ export const portfolio = [
       },
     ],
   },
+  {
+    id: 13,
+    img: car,
+    vid: car1,
+    title: 'E-commerce Car Purchase Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'An innovative e-commerce platform for car dealerships and individual sellers, designed to enhance the online car-buying experience by providing a comprehensive, user-friendly interface.',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, JavaScript, Tailwindcss',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Website : ',
+        desc: 'https://technotronix-frontend-three.vercel.app',
+      },
+    ],
+  },
+
 ];
 
 export const themes = [
